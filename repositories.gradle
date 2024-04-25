@@ -74,4 +74,7 @@ repositories {
             includeGroupByRegex "org\\.jetbrains.*"
         }
     }
+
+    mavenCentral()
+    maven { url "https://jitpack.io" }
 }
